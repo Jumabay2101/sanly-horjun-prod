@@ -4,7 +4,7 @@ import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/vue/24/outline'
 
 <template>
   <footer class="border-t px-6">
-    <div class=" mx-auto px-4 md:px-8 lg:px-12 pt-12 md:pt-16 pb-5">
+    <div class=" mx-auto px-4 md:px-8 lg:px-12 pt-12 md:pt-16 pb-5 max-w-400 mx-auto">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 mb-8 md:mb-12">
         <!-- Brand -->
         <div class="lg:col-span-1">
@@ -14,10 +14,10 @@ import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/vue/24/outline'
               alt="Sanly Horjun"
               class="h-10 w-10 rounded-lg mr-3"
             /> -->
-            <h3 class="text-2xl font-bold text-horjunBlue font-[horjunfontbold]">Sanly Horjun</h3>
+            <h3 class="text-2xl font-bold text-horjunBlue font-[horjunfontbold]">SANLY HORJUN</h3>
           </div>
-          <p class=" leading-relaxed mb-2 pr-4 sm:pr-16 md:pr-24">
-            {{ $t('about.description') }}
+          <p class=" leading-relaxed mb-2 pr-0 sm:pr-20 lg:pr-24">
+            {{ $t('about.missionText') }}
           </p>
 
         </div>
@@ -47,7 +47,7 @@ import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/vue/24/outline'
 
         <!-- Legal -->
         <div>
-          <h4 class="text-lg font-semibold font-[horjunfontmedium] mb-4">{{ $t('contact.title') }}</h4>
+          <h4 class="text-lg font-semibold font-[horjunfontmedium] mb-4">{{ $t('footer.contact') }}</h4>
           <div class="space-y-2">
             <div class="flex items-center gap-4">
               <div class="w-6 h-6 rounded-lg flex items-center justify-center">
@@ -65,8 +65,8 @@ import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/vue/24/outline'
               </div>
               <div>
                 <h3 class="text-base mb-1">{{ $t('contact.phone') }}</h3>
-                <p class="text-sm">+993 12 34 56 78</p>
-                <!-- <p class="text-sm">+993 65 43 21 09</p> -->
+                <p class="text-sm">+993 61 48 48 40</p>
+                <p class="text-sm">+993 63 55 61 56</p>
               </div>
             </div>
 
@@ -77,8 +77,7 @@ import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/vue/24/outline'
               <div>
                 <h3 class="text-base mb-1">{{ $t('contact.address') }}</h3>
                 <p class="text-sm">
-                  Bitarap Türkmenistan şaýoly 10<br>
-                  744000 Aşgabat, Türkmenistan
+                  {{ $t('contact.location') }}
                 </p>
               </div>
             </div>

@@ -23,10 +23,28 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: 'horjunfontarchivo';
+  src: url('./assets/fonts/ArchivoBlack/PublicSans-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
 
 @theme {
   --color-horjunBlue: #4562d7;
    --breakpoint-xlg: 978px;
+
+   @keyframes upDown {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+
+  --animate-up-down: upDown 3s ease-in-out infinite;
+}
+
+.my-up-down {
+  animation: var(--animate-up-down);
 }
 
 :root {
@@ -86,26 +104,32 @@ body {
   }
 }
 
+select,
+::picker(select) {
+  appearance: base-style;
+
+}
+
 /* Focus styles for accessibility */
 *:focus-visible {
-  outline: 1px solid #4E6EF1;
+  outline: 1px solid #dbdbdb;
+  /* outline: 1px solid #4E6EF1; */
   outline-offset: 1px;
 }
 
-/* Selection color */
-::selection {
-  background-color: #4E6EF1;
-  color: black;
-}
-
-
-::-moz-selection {
-  background-color: #4E6EF1;
-  color: white;
-}
 
 select option {
+  margin-top: 30px;
   background-color: #f5f5f5; /* dropdown option bg */
+}
+
+::picker(select) {
+  border: none;
+  margin-top: 20px;
+}
+
+option {
+  border: none !important
 }
 
 /* Print styles */
@@ -115,6 +139,8 @@ select option {
     color: black !important;
   }
 }
+
+
 
 
 /* Reduced motion support */

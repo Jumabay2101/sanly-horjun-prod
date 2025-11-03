@@ -8,14 +8,33 @@
   },
 
   "hero": {
-    "title": "Sanly Horjun - A digital solution for your business."
+    "title": "Sanly Horjun - A digital solution for your business.",
+    "welcome": "Welcome!"
   },
   
   "about": {
     "title": "About us",
-    "description": "«Sanly Horjun» Public Enterprise provides software and high-level IT services for the transition to a digital economy.",
+    "description": "We are a team that turns ideas into impactful digital solutions. Our experts create websites, mobile apps, and advertising campaigns that help businesses grow, attract customers, and strengthen their online presence.",
+    "description2": "We combine technology, analytics, and creativity to create products that deliver real results. From strategy development and design to implementation and promotion, we support every stage of the project.",
     "mission": "Our Mission",
-    "missionText": "Developing the digital economy of Turkmenistan by creating modern technological solutions"
+    "missionText": "Helping companies get closer to their customers through the use of modern digital tools."
+  },
+
+  "services": {
+    "title": "Our Services",
+    "description": "We don't just create projects — we build long-term partnerships and help businesses move forward confidently in the digital world.",
+    "web": "Web applications",
+    "webdesc": "Creating websites and platforms of any complexity",
+    "design": "Branding and Design",
+    "designdesc": "Branding and design services",
+    "android": "Android",
+    "androiddesc": "Developing Android mobile applications",
+    "ios": "iOS",
+    "iosdesc": "Developing iOS mobile applications",
+    "marketing": "Marketing",
+    "marketingdesc": "Full-scale digital marketing and targeted advertising",
+    "analytics": "Analytics and Optimization",
+    "analyticsdesc": "Conducting analytics and optimization of advertising campaigns"
   },
 
   "contact": {
@@ -24,7 +43,8 @@
     "phone": "Phone number",
     "email": "Email",
     "address": "Address",
-    "social": "Follow Us"
+    "social": "Follow Us",
+    "location": "Ashgabat, Kopetdag District, Parahat 2/4 Residential Complex, Building 2"
   },
 
   "footer": {

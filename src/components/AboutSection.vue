@@ -1,14 +1,17 @@
 <template>
-  <section id="about" class="pt-16 md:pt-24 pb-3 px-6">
+  <section id="about" class="pt-16 md:pt-24 pb-3 px-6 max-w-400 mx-auto">
     <div class="px-4 md:px-8 lg:px-12">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 items-center">
         <!-- Content -->
         <div class="animate-slide-up">
-          <h2 class="text-center lg:text-start text-2xl md:text-3xl lg:text-4xl text-horjunBlue font-bold font-[horjunfontbold] mb-6 md:mb-8">
+          <h2 class="text-center lg:text-start text-2xl md:text-3xl text-horjunBlue font-bold font-[horjunfontbold] mb-6 md:mb-8">
             {{ $t('about.title') }}
           </h2>
-          <p class="text-base md:text-lg mb-8 md:mb-10 leading-relaxed">
+          <p class="text-base md:text-lg mb-6 leading-relaxed">
             {{ $t('about.description') }}
+          </p>
+           <p class="text-base md:text-lg mb-8 md:mb-10 leading-relaxed">
+            {{ $t('about.description2') }}
           </p>
           
           <div class="rounded-xl p-6 md:p-8 border-l-4 ">

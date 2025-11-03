@@ -8,14 +8,33 @@
   },
 
   "hero": {
-    "title": "Sanly Horjun - Telekeçilik işiňiz üçin sanly çözgüt."
+    "title": "Sanly Horjun - Telekeçilik işiňiz üçin sanly çözgüt.",
+    "welcome": "Hoş geldiňiz!"
   },
  
   "about": {
     "title": "Biz barada",
-    "description": "«Sanly Horjun» HJ sanly ykdysadyýete geçmek üçin programma üpjünçilikleri we ýokary derejeli IT hyzmatlary ýerine ýetirýär.",
+    "description": "Biz — pikirleri täsirli sanly çözgütlere öwürýän topar. Hünärmenlerimiz web sahypalaryny, mobil goşundylary we reklam kampaniýalaryny döredýärler, olar bolsa biznesiň ösmegine, müşderileri özüne çekmegine we onlaýn giňişlikde gatnaşygyny güýçlendirmäge kömek edýär.",
+    "description2": "Biz tehnologiýany, analitikany we döredijiligi birleşdirip, hakyky netijäni berýän önümleri döredýäris. Strategiýany işläp taýýarlamakdan we dizaýndan başlap, ornaşdyrmaga hem-de mahabatlandyrmaga çenli — biz taslamany her tapgyrynda goldaýarys.",
     "mission": "Biziň maksadymyz",
-    "missionText": "Häziki zaman tehnologiki çözgütleri döretmek bilen Türkmenistanyň sanly ykdysadyýetini ösdürmek"
+    "missionText": "Döwrebap sanly gurallary ulanmak arkaly kompaniýalaryň müşderilerine has ýakyn bolmagyna ýardam etmek."
+  },
+
+  "services": {
+    "title": "Biziň hyzmatlarymyz",
+    "description": "Biz diňe taslamalar döretmeýäris — biz uzak möhletleýin hyzmatdaşlyklary gurýarys we biznesiň sanly dünýäde ynamly öňe gitmegine ýardam edýäris.",
+    "web": "Web programmalar",
+    "webdesc": "Islendik çylşyrymlylykdaky web sahypalaryny we platformalaryny döretmek",
+    "design": "Brending we Dizaýn",
+    "designdesc": "Brending we dizaýn hyzmatlary",
+    "android": "Android",
+    "androiddesc": "Android mobil goşundylary işläp taýýarlamak",
+    "ios": "iOS",
+    "iosdesc": "iOS mobil goşundylary işläp taýýarlamak",
+    "marketing": "Marketing",
+    "marketingdesc": "Doly derejeli sanly marketing we maksatlaýyn mahabat",
+    "analytics": "Analitika we Optimizasiýa",
+    "analyticsdesc": "Reklam kampaniýalarynyň analitikasyny we optimizasiýasyny geçirmek"
   },
 
   "contact": {
@@ -24,12 +43,14 @@
     "phone": "Telefon belgi",
     "email": "E-poçta",
     "address": "Salgy",
-    "social": "Bizi yzarlaň"
+    "social": "Bizi yzarlaň",
+    "location": "Aşgabat şäheri, Köpetdag etraby, Parahat 2/4 ýaşaýyş toplumy 2"
   },
 
   "footer": {
     "description": "«Sanly Horjun» HJ sanly ykdysadyýete geçmek üçin programma üpjünçilikleri we ýokary derejeli IT hyzmatlary ýerine ýetirýär.",
-    "quickLinks": "Salgylar",
+    "quickLinks": "Salgylar:",
+    "contact": "Habarlaşmak üçin:",
     "copyright": "© 2025 Sanly Horjun. Ähli hukuklar goragly."
   }
 }
