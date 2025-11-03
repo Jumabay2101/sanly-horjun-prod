@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "works": "Our Work",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "title": "Sanly Horjun - A digital solution for your business."
+  },
+  
+  "about": {
+    "title": "About us",
+    "description": "«Sanly Horjun» Public Enterprise provides software and high-level IT services for the transition to a digital economy.",
+    "mission": "Our Mission",
+    "missionText": "Developing the digital economy of Turkmenistan by creating modern technological solutions"
+  },
+
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have questions? We'd love to hear from you.",
+    "phone": "Phone number",
+    "email": "Email",
+    "address": "Address",
+    "social": "Follow Us"
+  },
+
+  "footer": {
+    "description": "Your ultimate destination for entertainment streaming in Turkmenistan",
+    "quickLinks": "Link addresses",
+    "copyright": "© 2025 Sanly Horjun. All rights reserved."
+  }
+}

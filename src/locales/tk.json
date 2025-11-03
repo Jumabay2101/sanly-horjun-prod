@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "home": "Baş sahypa",
+    "about": "Biz barada",
+    "services": "Hyzmatlarymyz",
+    "works": "Işlerimiz",
+    "contact": "Habarlaşmak"
+  },
+
+  "hero": {
+    "title": "Sanly Horjun - Telekeçilik işiňiz üçin sanly çözgüt."
+  },
+ 
+  "about": {
+    "title": "Biz barada",
+    "description": "«Sanly Horjun» HJ sanly ykdysadyýete geçmek üçin programma üpjünçilikleri we ýokary derejeli IT hyzmatlary ýerine ýetirýär.",
+    "mission": "Biziň maksadymyz",
+    "missionText": "Häziki zaman tehnologiki çözgütleri döretmek bilen Türkmenistanyň sanly ykdysadyýetini ösdürmek"
+  },
+
+  "contact": {
+    "title": "Habarlaşmak",
+    "subtitle": "Soraglaryňyz barmy? Sizden eşitmegi gowy görýäris.",
+    "phone": "Telefon belgi",
+    "email": "E-poçta",
+    "address": "Salgy",
+    "social": "Bizi yzarlaň"
+  },
+
+  "footer": {
+    "description": "«Sanly Horjun» HJ sanly ykdysadyýete geçmek üçin programma üpjünçilikleri we ýokary derejeli IT hyzmatlary ýerine ýetirýär.",
+    "quickLinks": "Salgylar",
+    "copyright": "© 2025 Sanly Horjun. Ähli hukuklar goragly."
+  }
+}

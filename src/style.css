@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap'); */
+
+@font-face {
+  font-family: 'horjunfont';
+  src: url('./assets/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'horjunfontbold';
+  src: url('./assets/fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'horjunfontmedium';
+  src: url('./assets/fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+@theme {
+  --color-horjunBlue: #4562d7;
+   --breakpoint-xlg: 978px;
+}
+
+:root {
+  font-family: 'horjunfont', sans-serif;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  line-height: 1.5;
+  font-weight: 400;
+  color: #313450;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Animation keyframes */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounceGentle {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Focus styles for accessibility */
+*:focus-visible {
+  outline: 1px solid #4E6EF1;
+  outline-offset: 1px;
+}
+
+/* Selection color */
+::selection {
+  background-color: #4E6EF1;
+  color: black;
+}
+
+
+::-moz-selection {
+  background-color: #4E6EF1;
+  color: white;
+}
+
+select option {
+  background-color: #f5f5f5; /* dropdown option bg */
+}
+
+/* Print styles */
+@media print {
+  * {
+    background: white !important;
+    color: black !important;
+  }
+}
+
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+
