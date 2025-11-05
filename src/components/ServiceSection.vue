@@ -86,18 +86,6 @@
                 <p class="text-[15px]">{{ $t('services.analyticsdesc') }}</p>
             </div>
         </div>
-
-        <!-- <div class="group transition text-center border border-[#4e6ff13f] rounded-xl px-6 py-10">
-            <div class="flex justify-center">
-                <div class="bg-black/20 group-hover:bg-black rounded-full p-4 duration-300">
-                    <SecurityIcon class="h-8 w-8 text-horjunBlue group-hover:text-white duration-300" />
-                </div>
-            </div>
-            <div class="flex flex-col gap-4 mt-6">
-                <h1 class="font-[horjunfontmedium] text-lg">{{ $t('services.cyber') }}</h1>
-                <p class="text-[15px]">{{ $t('services.description') }}</p>
-            </div>
-        </div> -->
       </div>
     </div>
   </section>

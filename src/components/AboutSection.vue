@@ -27,13 +27,14 @@
           </div>
         </div>
 
-        <!-- Visual -->
+        <!-- About Image -->
         <div class="animate-slide-up" style="animation-delay: 0.2s;">
           <div class="relative">
             <img 
               src="../assets/img/about.webp"
               alt="About Sanly Horjun"
               class="w-full h-auto"
+              loading="lazy"
             />
           </div>
         </div>
@@ -43,7 +44,6 @@
 </template>
 
 <script setup lang="ts">
-import { useI18n } from 'vue-i18n'
-
-useI18n()
+  import { useI18n } from 'vue-i18n';
+  useI18n();
 </script>

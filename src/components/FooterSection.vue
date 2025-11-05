@@ -1,28 +1,18 @@
-<script setup lang="ts">
-import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/vue/24/outline'
-</script>
-
 <template>
-  <footer class="border-t px-6">
-    <div class=" mx-auto px-4 md:px-8 lg:px-12 pt-12 md:pt-16 pb-5 max-w-400 mx-auto">
+  <footer class="border-t">
+    <div class="px-4 pt-12 md:pt-16 pb-5 max-w-400 mx-auto">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 mb-8 md:mb-12">
         <!-- Brand -->
         <div class="lg:col-span-1">
           <div class="flex items-center mb-4">
-            <!-- <img 
-              src="https://images.pexels.com/photos/3394664/pexels-photo-3394664.jpeg?auto=compress&cs=tinysrgb&w=60&h=60&fit=crop" 
-              alt="Sanly Horjun"
-              class="h-10 w-10 rounded-lg mr-3"
-            /> -->
             <h3 class="text-2xl font-bold text-horjunBlue font-[horjunfontbold]">SANLY HORJUN</h3>
           </div>
           <p class=" leading-relaxed mb-2 pr-0 sm:pr-20 lg:pr-24">
             {{ $t('about.missionText') }}
           </p>
-
         </div>
 
-        <!-- Quick Links -->
+        <!-- Links -->
         <div>
           <h4 class="text-lg mb-4 font-[horjunfontmedium]">{{ $t('footer.quickLinks') }}</h4>
           <ul class="space-y-3">
@@ -36,16 +26,15 @@ import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/vue/24/outline'
                 {{ $t('nav.services') }}
               </a>
             </li>
-            <li>
+            <!-- <li>
               <a href="#works" class="hover:text-horjunBlue">
                 {{ $t('nav.works') }}
               </a>
-            </li>
+            </li> -->
           </ul>
         </div>
 
-
-        <!-- Legal -->
+        <!-- Contact -->
         <div>
           <h4 class="text-lg font-semibold font-[horjunfontmedium] mb-4">{{ $t('footer.contact') }}</h4>
           <div class="space-y-2">
@@ -91,11 +80,12 @@ import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/vue/24/outline'
           <p class="text-sm">
             {{ $t('footer.copyright') }}
           </p>
-          
-          
         </div>
       </div>
     </div>
   </footer>
 </template>
 
+<script setup lang="ts">
+  import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/vue/24/outline'
+</script>

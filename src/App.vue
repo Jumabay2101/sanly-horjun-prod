@@ -1,12 +1,10 @@
 <template>
-  <div>
     <HeaderSection />
     <AboutSection />
     <ServiceSection />
     <ContactSection />
     <FooterSection />
-  </div>
-  </template>
+</template>
 
 <script setup lang="ts">
 import { onMounted } from 'vue'
@@ -17,7 +15,23 @@ import ContactSection from './components/ContactSection.vue'
 import FooterSection from './components/FooterSection.vue'
 import ServiceSection from './components/ServiceSection.vue'
 
-const { locale } = useI18n()
+const { t,locale } = useI18n()
+
+import { useHead } from '@vueuse/head'
+
+useHead({
+  title: 'Sanly Horjun',
+  meta: [
+    { name: 'description', content: `${t('services.description')}` },
+    { name: 'og:image', property: 'og:image', content: 'https://sanly.horjun.tm/favicon.png' },
+    { name: 'og:type', property: 'og:type', content: 'website' },
+    { name: 'og:title', property: 'og:title', content: "Sanly Horjun" },
+    { name: 'og:site_name', property: 'og:site_name', content: 'Sanly Horjun' },
+    { name: 'og:description', property: 'og:description', content: `${t('services.description')}` },
+    { name: 'og:url', property: 'og:url', content: 'https://sanly.horjun.tm' },
+    
+  ],
+})
 
 onMounted(() => {
   // Load saved language preference
@@ -30,11 +44,11 @@ onMounted(() => {
   
   const metaDescription = document.querySelector('meta[name="description"]')
   if (metaDescription) {
-    metaDescription.setAttribute('content', 'Biz diňe taslamalar döretmeýäris — biz uzak möhletleýin hyzmatdaşlyklary gurýarys we biznesiň sanly dünýäde ynamly öňe gitmegine ýardam edýäris.')
+    metaDescription.setAttribute('content', `${t('services.description')}`)
   } else {
     const meta = document.createElement('meta')
     meta.name = 'description'
-    meta.content = 'Biz diňe taslamalar döretmeýäris — biz uzak möhletleýin hyzmatdaşlyklary gurýarys we biznesiň sanly dünýäde ynamly öňe gitmegine ýardam edýäris.'
+    meta.content = `${t('services.description')}`
     document.head.appendChild(meta)
   }
   
@@ -43,9 +57,9 @@ onMounted(() => {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Sanly Horjun",
-    "description": "Sanly Horjun - hojalyk jemgyyeti",
+    "description": `${t('services.description')}`,
     "url": "https://sanly.horjun.tm",
-    "logo": "",
+    // "logo": "",
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+993-61-48-48-40",
@@ -62,7 +76,6 @@ onMounted(() => {
 
 <style>
 
-/* Global styles */
 html {
   scroll-behavior: smooth;
 }
@@ -85,6 +98,4 @@ html {
   outline: 2px solid #e50914;
   outline-offset: 2px;
 }
-
-
 </style>
